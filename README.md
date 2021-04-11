@@ -10,7 +10,7 @@ The tool provides interface for result analysis. All results are saved in json f
 
 # Tool Install
 
-If you have Go installed and configured (i.e. with `$GOPATH/bin` in your `$PATH`):
+If you have Go installed and configured (i.e. with `$GOPATH/bin` in your `$PATH`):
 
 ```
 go get -u github.com/shabarkin/aws-enumerator
@@ -26,9 +26,9 @@ To setup credentials you should use `cred` subcommand and supply credentials:
 ./aws-enumerator cred -aws_access_key_id AKIA***********XKU -aws_region us-west-2 -aws_secret_access_key kIm6m********************5JPF
 ```
 
-![readme_help/Screenshot_2021-04-10_at_14.43.51.png](readme_help/Screenshot_2021-04-10_at_14.43.51.png)
+![_img/Screenshot_2021-04-10_at_14.43.51.png](_img/Screenshot_2021-04-10_at_14.43.51.png)
 
-![readme_help/Screenshot_2021-04-10_at_14.45.51.png](readme_help/Screenshot_2021-04-10_at_14.45.51.png)
+![_img/Screenshot_2021-04-10_at_14.45.51.png](_img/Screenshot_2021-04-10_at_14.45.51.png)
 
 It creates `.env` file which is loaded to global variables each time you call `enum` subcommand.
 
@@ -48,7 +48,7 @@ To enumerate all services use `enum` subcommand and supply `all` value or `iam,s
 ./aws-enumerator enum -services iam,sts,rds
 ```
 
-![readme_help/Screenshot_2021-04-10_at_13.36.56.png](readme_help/Screenshot_2021-04-10_at_13.36.56.png)
+![_img/Screenshot_2021-04-10_at_13.36.56.png](_img/Screenshot_2021-04-10_at_13.36.56.png)
 
 (`-speed` is optional, the default value is `normal` ) There is 3 speed choices `slow`, `normal`, `fast` 
 
@@ -64,7 +64,7 @@ To analyse all gathered information use `dump` subcommand: ( Use `all` for quick
 ./aws-enumerator dump -services all
 ```
 
-![readme_help/Screenshot_2021-04-10_at_13.56.12.png](readme_help/Screenshot_2021-04-10_at_13.56.12.png)
+![_img/Screenshot_2021-04-10_at_13.56.12.png](_img/Screenshot_2021-04-10_at_13.56.12.png)
 
 Analyse specific services (you can supply up to 10) `iam,s3,sts` etc ...
 
@@ -72,7 +72,7 @@ Analyse specific services (you can supply up to 10) `iam,s3,sts` etc ...
 ./aws-enumerator dump -services iam,s3,sts
 ```
 
-![readme_help/Screenshot_2021-04-10_at_14.03.16.png](readme_help/Screenshot_2021-04-10_at_14.03.16.png)
+![_img/Screenshot_2021-04-10_at_14.03.16.png](_img/Screenshot_2021-04-10_at_14.03.16.png)
 
 To filter the API calls use `-filter` option, start typing the name of API call (`GetA` ...): 
 
@@ -80,7 +80,7 @@ To filter the API calls use `-filter` option, start typing the name of API call 
 ./aws-enumerator dump -services iam -filter GetA
 ```
 
-![readme_help/Screenshot_2021-04-10_at_14.06.18.png](readme_help/Screenshot_2021-04-10_at_14.06.18.png)
+![_img/Screenshot_2021-04-10_at_14.06.18.png](_img/Screenshot_2021-04-10_at_14.06.18.png)
 
 To retrieve the result of API call use `-print` option
 
@@ -88,7 +88,7 @@ To retrieve the result of API call use `-print` option
 ./aws-enumerator dump -services iam -filter ListS -print
 ```
 
-![readme_help/Screenshot_2021-04-10_at_14.08.01.png](readme_help/Screenshot_2021-04-10_at_14.08.01.png)
+![_img/Screenshot_2021-04-10_at_14.08.01.png](_img/Screenshot_2021-04-10_at_14.08.01.png)
 
 ## Demo Video
 
