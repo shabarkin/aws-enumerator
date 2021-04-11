@@ -50,7 +50,7 @@ func DumpInfo(services_dump *string, print_apicalls *bool, filter *string, error
 }
 
 var Cloudrider_help string = `Usage:
-cloudrider [command]
+aws-enumerator [command]
 
 Available Commands:
   cred         Saves AWS credentials to .env file in a propriate format for later authentication
@@ -62,7 +62,7 @@ Flags:
 `
 
 var Cloudrider_cred_help string = `Usage:
-cloudrider cred [command]
+aws-enumerator cred [command]
 	  
 Flags:
   -aws_region               Specify AWS region to which the account may have access to.
@@ -71,23 +71,23 @@ Flags:
   -aws_session_token        Specify AWS Session Token for wanted account.
 
 Example:
-  ./cloudrider cred -aws_region us-west-2 -aws_access_key_id AKIA85CEHPO3GLIABKZD -aws_secret_access_key LW3bDF8xJvzGgArqMo0h4kuCYsnubU23kGICGp/p -aws_session_token LW3bDF8xJvzGgArqM.......
+  ./aws-enumerator cred -aws_region us-west-2 -aws_access_key_id AKIA85CEHPO3GLIABKZD -aws_secret_access_key LW3bDF8xJvzGgArqMo0h4kuCYsnubU23kGICGp/p -aws_session_token LW3bDF8xJvzGgArqM.......
 `
 
 var Cloudrider_enum_help string = `Usage:
-cloudrider enum [command]
+aws-enumerator enum [command]
 	  
 Flags:
   -services     Enumerate permissions specifying services divided by comma or 'all' for total enumeration
   -speed        Speed parameter has three defitions : fast or normal or slow (default is normal)
 
 Example:
-  ./cloudrider enum -services iam,sts,s3,ec2 -speed normal
-  ./cloudrider enum -services all
+  ./aws-enumerator enum -services iam,sts,s3,ec2 -speed normal
+  ./aws-enumerator enum -services all
 `
 
 var Cloudrider_dump_help string = `Usage:
-cloudrider dump [command]
+aws-enumerator dump [command]
 	  
 Flags:
   -services     Enumerate permissions specifying services divided by comma or 'all' for total enumeration
@@ -97,16 +97,16 @@ Flags:
 
 Example:
   #1 
-  ./cloudrider dump -services iam
-  ./cloudrider dump -services iam -filter List
-  ./cloudrider dump -services iam -filter List -print
-  ./cloudrider dump -services iam -filter List -print -errors
+  ./aws-enumerator dump -services iam
+  ./aws-enumerator dump -services iam -filter List
+  ./aws-enumerator dump -services iam -filter List -print
+  ./aws-enumerator dump -services iam -filter List -print -errors
 
   #2 
-  ./cloudrider dump -services all
-  ./cloudrider dump -services all -filter Get
-  ./cloudrider dump -services all -filter Get -print
-  ./cloudrider dump -services all -filter Get -print -errors
+  ./aws-enumerator dump -services all
+  ./aws-enumerator dump -services all -filter Get
+  ./aws-enumerator dump -services all -filter Get -print
+  ./aws-enumerator dump -services all -filter Get -print -errors
 `
 
 // Command line flags:
