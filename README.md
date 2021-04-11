@@ -88,8 +88,8 @@ To retrieve the result of API call use `-print` option
 ./aws-enumerator dump -services iam -filter ListS -print
 ```
 
-![readme_help/Screenshot_2021-04-10_at_14.08.01.png](%readme_help/Screenshot_2021-04-10_at_14.08.01.png)
+![readme_help/Screenshot_2021-04-10_at_14.08.01.png](readme_help/Screenshot_2021-04-10_at_14.08.01.png)
 
 ## Demo Video
 
-[https://www.linkedin.com/posts/pavelshabarkin_cybersecurity-hacking-awssecurity-activity-6785479892881416192-O29U/](https://www.linkedin.com/posts/pavelshabarkin_cybersecurity-hacking-awssecurity-activity-6785479892881416192-O29U/)
+[Pavel Shabarkin LinkedIn](https://www.linkedin.com/posts/pavelshabarkin_cybersecurity-hacking-awssecurity-activity-6785479892881416192-O29U/)
