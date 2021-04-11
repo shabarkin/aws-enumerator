@@ -1,5 +1,10 @@
 # AWS Service Enumerator
 
+# Disclaimer
+
+The tool is in beta stage (testing in progress), no destructive API Calls used ( read only actions ).
+I hope, there will be no issues with the tool. If any issues encountered, please submit the ticket. 
+
 # Description
 
 The AWS Enumerator was created for service enumeration and info dumping for investigations of penetration testers during Black-Box  testing. The tool is intended to speed up the process of Cloud review in case the security researcher compromised AWS Account Credentials. 
