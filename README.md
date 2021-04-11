@@ -8,7 +8,7 @@ AWS Enumerator supports more than 600 API Calls ( reading actions `Get`,  `List`
 
 The tool provides interface for result analysis. All results are saved in json files (one time "Database").
 
-# Tool Install
+# Install
 
 If you have Go installed and configured (i.e. with `$GOPATH/bin` in your `$PATH`):
 
@@ -16,7 +16,7 @@ If you have Go installed and configured (i.e. with `$GOPATH/bin` in your `$PA
 go get -u github.com/shabarkin/aws-enumerator
 ```
 
-# Tool Usage
+# Basic Usage
 
 ## Credentials setup
 
@@ -56,7 +56,7 @@ To enumerate all services, you should use enum subcommand and supply all value o
 ./aws-enumerator enum -services all -speed slow
 ```
 
-## Analyse
+## Analysis
 
 To analyse the collected information, you should use `dump` subcommand: ( Use `all` for quick overview of available API calls )
 
