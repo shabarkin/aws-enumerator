@@ -4,8 +4,6 @@ import (
 	"context"
 	"log"
 
-	"github.com/aws-enumerator/servicemaster"
-	"github.com/aws-enumerator/utils"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/acm"
 	"github.com/aws/aws-sdk-go-v2/service/amplify"
@@ -112,6 +110,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/workmail"
 	"github.com/aws/aws-sdk-go-v2/service/workspaces"
 	"github.com/aws/aws-sdk-go-v2/service/xray"
+	"github.com/shabarkin/aws-enumerator/servicemaster"
+	"github.com/shabarkin/aws-enumerator/utils"
 )
 
 func GetServices() []servicemaster.ServiceMaster {

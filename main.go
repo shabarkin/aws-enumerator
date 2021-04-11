@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws-enumerator/helper"
-	"github.com/aws-enumerator/utils"
+	"github.com/shabarkin/aws-enumerator/helper"
+	"github.com/shabarkin/aws-enumerator/utils"
 )
 
 func main() {

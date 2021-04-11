@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aws-enumerator/utils"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/sts"
+	"github.com/shabarkin/aws-enumerator/utils"
 )
 
 type ServiceMaster struct {

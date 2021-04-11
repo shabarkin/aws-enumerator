@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/aws-enumerator/servicemaster"
-	"github.com/aws-enumerator/servicestructs"
-	"github.com/aws-enumerator/utils"
+	"github.com/shabarkin/aws-enumerator/servicemaster"
+	"github.com/shabarkin/aws-enumerator/servicestructs"
+	"github.com/shabarkin/aws-enumerator/utils"
 )
 
 func changeSpeedForTime(speed string) (time int) {

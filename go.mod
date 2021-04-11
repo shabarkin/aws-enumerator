@@ -1,4 +1,4 @@
-module github.com/aws-enumerator
+module github.com/shabarkin/aws-enumerator
 
 go 1.15
 
