@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloud-enumerator/helper"
-	"github.com/cloud-enumerator/utils"
+	"github.com/aws-enumerator/helper"
+	"github.com/aws-enumerator/utils"
 )
 
 func main() {
