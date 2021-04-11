@@ -1,0 +1,2 @@
+# aws-enumerator
+The AWS Enumerator was created for service enumeration and info dumping for investigations of penetration testers during Black-Box  testing. The tool should speed up the process of Cloud reviewing in case the security researcher compromised AWS Account Credentials.   AWS Enumerator counts more than 600 API Calls ( reading actions `Get`,  `List`, `Describe` etc... ) which are going to be extended.   The tool provides interface for result analysis. All results are saved in json files (one time "Database").
