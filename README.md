@@ -1,4 +1,4 @@
-# AWS Service Enumerator
+# AWS Service Enumeration
 
 # Disclaimer
 
