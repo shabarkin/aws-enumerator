@@ -20,6 +20,9 @@ If you have Go installed and configured (i.e. with `$GOPATH/bin` in your `$PA
 ```
 go get -u github.com/shabarkin/aws-enumerator
 ```
+```
+go install -v github.com/shabarkin/aws-enumerator@latest
+```
 
 # Basic Usage
 
